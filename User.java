@@ -9,7 +9,7 @@ public class User {
     private int age;
     private String address;
     private List<Vehicle> rentedVehicles;
-    private final int adminpassword = 9988;
+    private final static int adminpassword = 9988;
     private Boolean isAdmin = false;
     private String ID;
 
